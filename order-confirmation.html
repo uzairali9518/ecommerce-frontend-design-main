@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmation</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Alpha Store</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="contact.html">Contact</a>
+      <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <main class="confirmation">
+    <h2>Order Confirmation</h2>
+    <div class="confirmation-details">
+      <p>Thank you for your order!</p>
+      <p>Your order #<span id="order-id">12345</span> has been received.</p>
+      <p>A confirmation email has been sent to <span id="customer-email">user@example.com</span>.</p>
+    </div>
+    <div class="order-summary">
+      <h3>Order Summary</h3>
+      <div id="confirmation-items"></div>
+      <p class="total">Total: $<span id="confirmation-total">0.00</span></p>
+    </div>
+    <a href="products.html" class="continue-shopping">Continue Shopping</a>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Alpha Store. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
